@@ -34,3 +34,25 @@ nav{
 nav .rf{
     margin-left: 1.8vw;
 }
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header h1{
+    font-family: "Plus Jakarta Sans", serif;
+    color:rgba(214, 221, 230, 1);
+    font-size: 8vw;
+    padding-top: 3vw;
+    line-height: 1;
+}
+.header img{
+    margin-top: -1.5vw;
+    border-radius: 2.5vw;
+    border:1.5px solid rgba(214, 221, 230, 0.2);
+    height: 45vw;
+    width: 92vw;
+}
